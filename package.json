@@ -1,0 +1,8 @@
+{
+    "name": "demo-web",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "build": "mkdir -p dist && echo '<!doctype html><html><head><meta charset=\"utf-8\"><title>Demo</title></head><body><h1>Demo Running</h1><p>Built at '$(date)'</p></body></html>' > dist/index.html"
+    }
+  }
